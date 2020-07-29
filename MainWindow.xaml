@@ -1,0 +1,16 @@
+﻿<Window x:Class="Red_greenScreenChangeButton.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Red_greenScreenChangeButton"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="130" Width="250" WindowStartupLocation="Manual">
+
+    <Grid>
+        <Button Height="100" Width="250" Click="Button_Click" Background="Red">
+            <Label Name="power" Content="Label" Height="64" Margin="-150 0 0 0" Width="26" Background="Black"/>
+        </Button>
+    </Grid>
+
+</Window>
